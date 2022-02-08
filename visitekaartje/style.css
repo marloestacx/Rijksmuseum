@@ -1,0 +1,93 @@
+body {
+  background-color: #fff6fc;
+  font-family: "Courier New", Courier, monospace;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p,
+h1,
+h2,
+li {
+  color: #fff6fc;
+}
+
+h1 {
+  font-size: 21pt;
+}
+h2 {
+  font-size: 14pt;
+}
+
+/* js */
+#front.hidden {
+  display: none;
+  transition: 3s;
+}
+
+#back.hidden {
+  display: none;
+}
+/* js */
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 455px;
+  height: 300px;
+  background-color: #9556a2;
+  padding: 0.5em;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  padding: 0.5em;
+}
+
+#front,
+#back {
+  height: 440px;
+}
+
+#back {
+  background-color: #9556a2;
+  padding: 0.5em;
+}
+
+img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  border: none;
+  color: #9556a2;
+  background-color: #fff6fc;
+  padding: 0.5em;
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff6fc;
+}
+
+/* .contact {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+} */
+/* donker paars #9556a2 */

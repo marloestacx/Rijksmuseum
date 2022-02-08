@@ -21,16 +21,16 @@ h2 {
   font-size: 14pt;
 }
 
-/* js */
+/* transition on click  */
 #front.hidden {
-  display: none;
-  transition: 3s;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 #back.hidden {
-  display: none;
+  opacity: 0;
+  transition: opacity 1s;
 }
-/* js */
 
 main {
   display: flex;
@@ -39,6 +39,7 @@ main {
   height: 300px;
   background-color: #9556a2;
   padding: 0.5em;
+  overflow: hidden;
 }
 
 .info {
@@ -49,11 +50,14 @@ main {
 
 #front,
 #back {
+  transition: opacity 1s;
   height: 440px;
 }
 
 #back {
-  background-color: #9556a2;
+  position: absolute;
+  width: 440px;
+  height: 250px;
   padding: 0.5em;
 }
 
@@ -65,6 +69,7 @@ img {
 ul {
   padding: 0;
 }
+
 li {
   list-style: none;
   display: flex;
@@ -84,10 +89,3 @@ a {
   text-decoration: none;
   color: #fff6fc;
 }
-
-/* .contact {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-} */
-/* donker paars #9556a2 */

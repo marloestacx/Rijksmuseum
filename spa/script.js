@@ -14,7 +14,6 @@ function getData() {
     .then((response) => {
       display.textContent = "";
       showData(response.artObjects);
-
       data = response.artObjects;
     })
     .catch(function (err) {
@@ -26,7 +25,6 @@ function getData() {
 getData();
 
 function showData(data) {
-  console.log("test");
   data.forEach((item) => {
     newItems = document.createElement("article");
     newItems.innerHTML =
@@ -38,7 +36,6 @@ function showData(data) {
       item.webImage.url.slice(0, -3) +
       "=s1000" +
       ">";
-
     display.appendChild(newItems);
   });
 }
@@ -57,7 +54,9 @@ function search() {
     );
   });
 
-  //TODO: ignore capital letters & empty state
+  if (search.length == 0) {
+    display.textContent = "Niks gevonden, zoek opnieuw";
+  }
 
   showData(search);
 }

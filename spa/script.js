@@ -1,4 +1,4 @@
-const data = [];
+let data = [];
 
 const display = document.getElementById("items");
 display.textContent = "Laden....";
@@ -15,7 +15,7 @@ function getData() {
       display.textContent = "";
       showData(response.artObjects);
 
-      data.push(response.artObjects);
+      data = response.artObjects;
     })
     .catch(function (err) {
       // Catch error
@@ -26,8 +26,10 @@ function getData() {
 getData();
 
 function showData(data) {
+  console.log("test");
   data.forEach((item) => {
     newItems = document.createElement("article");
+    newItems.id = "art";
     newItems.innerHTML =
       "<h2>" +
       item.title +
@@ -43,9 +45,18 @@ function showData(data) {
   // console.log(data);
 }
 
-function search(data) {
+function search() {
+  //Empty results
+  display.innerHTML = "";
+
   var input = document.getElementById("myInput");
-  console.log(input.value);
-  console.log(data);
-  data.title.filter(input);
+
+  //search on input
+  var search = data.filter(function (d) {
+    return d.title.includes(input.value);
+  });
+
+  //TODO: search on artist & ignore capital letters
+
+  showData(search);
 }

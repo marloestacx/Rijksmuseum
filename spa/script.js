@@ -29,7 +29,6 @@ function showData(data) {
   console.log("test");
   data.forEach((item) => {
     newItems = document.createElement("article");
-    newItems.id = "art";
     newItems.innerHTML =
       "<h2>" +
       item.title +
@@ -42,7 +41,6 @@ function showData(data) {
 
     display.appendChild(newItems);
   });
-  // console.log(data);
 }
 
 function search() {
@@ -53,10 +51,13 @@ function search() {
 
   //search on input
   var search = data.filter(function (d) {
-    return d.title.includes(input.value);
+    return (
+      d.title.toLowerCase().includes(input.value.toLowerCase()) ||
+      d.principalOrFirstMaker.toLowerCase().includes(input.value.toLowerCase())
+    );
   });
 
-  //TODO: search on artist & ignore capital letters
+  //TODO: ignore capital letters & empty state
 
   showData(search);
 }

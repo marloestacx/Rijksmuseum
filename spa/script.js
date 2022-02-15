@@ -4,7 +4,11 @@ display.textContent = "Laden....";
 function getData() {
   fetch("https://www.rijksmuseum.nl/api/nl/collection?key=c5r1klvi")
     // JSON data
-    .then((response) => response.json())
+    .then((response) => {
+      if (response.status >= 200 && response.status <= 299) {
+        return response.json();
+      }
+    })
     .then((response) => {
       display.textContent = "";
       showData(response.artObjects);

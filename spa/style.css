@@ -9,8 +9,9 @@ body {
 }
 
 header {
-  text-align: center;
   padding: 1em;
+  display: flex;
+  justify-content: space-between;
 }
 
 section {
@@ -36,5 +37,16 @@ img {
 h1,
 h2,
 h3 {
+  color: #c2ccce;
+}
+
+button {
+  background-color: Transparent;
+  border: none;
+  cursor: pointer;
+}
+
+i {
+  font-size: 18pt;
   color: #c2ccce;
 }

@@ -40,7 +40,7 @@ h3 {
   color: #c2ccce;
 }
 
-button {
+/* button {
   background-color: Transparent;
   border: none;
   cursor: pointer;
@@ -49,4 +49,10 @@ button {
 i {
   font-size: 18pt;
   color: #c2ccce;
+} */
+
+input {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  width: 35%;
 }

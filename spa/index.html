@@ -14,7 +14,14 @@
   <body>
     <header>
       <h1>Rijksmuseum</h1>
-      <button><i class="fas fa-search"></i></button>
+      <!-- <button><i class="fas fa-search"></i></button> -->
+      <input
+        type="text"
+        id="myInput"
+        onkeyup="search()"
+        placeholder="Search for names.."
+        title="Type in a name"
+      />
     </header>
     <section id="items"><p>Nog niks geladen</p></section>
     <script src="script.js"></script>

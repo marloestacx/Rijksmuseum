@@ -1,8 +1,5 @@
 import { showData } from "./data.js";
-// import { api } from "./data.js";
 const display = document.getElementById("items");
-
-// document.getElementById("myInput").addEventListener("keyup", search);
 
 export function search(data) {
   //Empty results

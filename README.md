@@ -47,6 +47,8 @@ Your efforts will be graded using a single point rubric (see below). You will ha
 
 
 ## Sources
+* [API](https://data.rijksmuseum.nl/object-metadata/api/)
+* [routie](http://projects.jga.me/routie/)
 
 ## Wishlist
 * Filter function

@@ -1,5 +1,6 @@
 import { globalData } from "./api.js";
 import { showData } from "./data.js";
+import { errorSearch } from "./states.js";
 
 export function filterData(input) {
   //search on input
@@ -15,7 +16,8 @@ export function filterData(input) {
   });
 
   if (search.length == 0) {
-    display.textContent = "Niks gevonden, zoek opnieuw";
+    // display.textContent = "Niks gevonden, zoek opnieuw";
+    errorSearch();
   }
 
   showData(search);

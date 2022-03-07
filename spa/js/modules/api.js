@@ -1,6 +1,4 @@
 import { showData } from "./data.js";
-const display = document.getElementById("items");
-display.textContent = "Laden....";
 let data = [];
 let globalData;
 export { globalData };
@@ -18,7 +16,6 @@ export async function getData() {
       data = response.artObjects;
       console.log(data);
       showData(response.artObjects);
-      // search(data);
       globalData = data;
     })
     .catch(function (err) {

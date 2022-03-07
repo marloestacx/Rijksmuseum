@@ -1,10 +1,12 @@
 import { getData } from "./api.js";
 import { filterData } from "./filter.js";
 import "../routie/routie.min.js";
+import { loading } from "./states.js";
 
 export function route() {
   routie({
     "": () => {
+      loading();
       getData();
     },
     "search/:searchInput": (inputField) => {

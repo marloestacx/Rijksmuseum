@@ -1,8 +1,17 @@
 import { globalData } from "./api.js";
 import { showData } from "./data.js";
 import { errorSearch } from "./states.js";
-import { searchInput } from "./input.js";
 import "../routie/routie.min.js";
+
+export function searchInput() {
+  let input = document.getElementById("searchInput");
+
+  search(input.value);
+
+  console.log(input);
+
+  // routie("search/" + input.value);
+}
 
 export function search(input) {
   const display = document.getElementById("items");

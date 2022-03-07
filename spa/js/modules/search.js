@@ -1,32 +1,37 @@
-import { showData } from "./data.js";
 import { globalData } from "./api.js";
-import { filterData } from "./filter.js";
+import { showData } from "./data.js";
+import { errorSearch } from "./states.js";
+import { searchInput } from "./input.js";
 import "../routie/routie.min.js";
-const display = document.getElementById("items");
 
-export function search() {
-  //Empty results
+export function search(input) {
+  const display = document.getElementById("items");
   display.innerHTML = "";
 
-  var input = document.getElementById("myInput");
+  //search on input
+  console.log(input);
 
-  //   //search on input
-  //   var search = globalData.filter(function (d) {
-  //     return (
-  //       d.title.toLowerCase().includes(input.value.toLowerCase()) ||
-  //       d.principalOrFirstMaker.toLowerCase().includes(input.value.toLowerCase())
-  //     );
-  //   });
+  var search = globalData.filter(function (d) {
+    return (
+      d.title.toLowerCase().includes(input.toLowerCase()) ||
+      d.principalOrFirstMaker.toLowerCase().includes(input.toLowerCase())
+    );
+  });
 
-  //   if (search.length == 0) {
-  //     display.textContent = "Niks gevonden, zoek opnieuw";
-  //   }
+  if (search.length == 0) {
+    // display.textContent = "Niks gevonden, zoek opnieuw";
+    errorSearch();
+  }
 
-  filterData(input.value);
+  showData(search);
+}
 
-  // console.log(input.value);
+export function searchBar(event) {
+  event.preventDefault();
 
+  let input = document.getElementById("searchInput");
+
+  console.log(input);
   routie("search/" + input.value);
-
-  // showData(search);
+  searchInput();
 }

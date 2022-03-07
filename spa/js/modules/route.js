@@ -1,7 +1,7 @@
 import { getData } from "./api.js";
-import { filterData } from "./filter.js";
 import "../routie/routie.min.js";
 import { loading } from "./states.js";
+import { search } from "./search.js";
 
 export function route() {
   routie({
@@ -9,12 +9,21 @@ export function route() {
       loading();
       getData();
     },
-    "search/:searchInput": (inputField) => {
+    "search/:searchInput": (input) => {
+      loading();
       getData()
         .then(() => {
-          console.log(inputField);
-          filterData(inputField);
+          setTimeout(startTimer, 3000);
+          console.log("test");
+
+          function startTimer() {
+            console.log("test2");
+            search(input);
+          }
+
+          //   filterData(input);
         })
+
         .catch(function (err) {
           // Catch error
           console.log(err);

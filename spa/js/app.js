@@ -1,6 +1,6 @@
-import { search } from "./modules/search.js";
 import { route } from "./modules/route.js";
-
-document.getElementById("myInput").addEventListener("keyup", search);
+import { searchBar } from "./modules/search.js";
 
 route();
+
+document.querySelector("form").addEventListener("submit", searchBar);

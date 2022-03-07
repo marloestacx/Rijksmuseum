@@ -1,4 +1,4 @@
-import { getData } from "./api.js";
+import { getData, globalData } from "./api.js";
 import "../routie/routie.min.js";
 import { loading } from "./states.js";
 import { search } from "./search.js";
@@ -11,23 +11,18 @@ export function route() {
     },
     "search/:searchInput": (input) => {
       loading();
-      getData()
-        .then(() => {
-          setTimeout(startTimer, 3000);
-          console.log("test");
-
-          function startTimer() {
-            console.log("test2");
+      if (!globalData) {
+        getData()
+          .then(() => {
             search(input);
-          }
-
-          //   filterData(input);
-        })
-
-        .catch(function (err) {
-          // Catch error
-          console.log(err);
-        });
+          })
+          .catch(function (err) {
+            // Catch error
+            console.log(err);
+          });
+      } else {
+        search(input);
+      }
     },
   });
 }

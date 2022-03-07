@@ -21,9 +21,16 @@ This project is a single page web app where you can view art that is displayed i
 In the web app you can view the art. At the top is a search bar which you can search art with, you can search the art by name or the person who made it. 
 
 ## Installation 
+Clone this repository
+
+`https://github.com/marloestacx/rijksmuseum.git`
+
+Use Live Server to run the project
+
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 ## Live Demo
-https://marloestacx.github.io/web-app-from-scratch-2122/spa/
+The website can be viewd live on [https://marloestacx.github.io/web-app-from-scratch-2122/spa/](https://marloestacx.github.io/web-app-from-scratch-2122/spa/)
 
 ## Activity Diagram
 
@@ -42,7 +49,7 @@ Your efforts will be graded using a single point rubric (see below). You will ha
 ## Sources
 
 ## Wishlist
-*Filter function
+* Filter function
 
 ## License
 Usage is provided under the [MIT License](https://github.com/marloestacx/Rijksmuseum/blob/main/LICENSE). See LICENSE for the full details.

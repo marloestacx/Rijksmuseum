@@ -1,28 +1,38 @@
-# Web App From Scratch @cmda-minor-web 2021 - 2022
+# Rijksmuseum
+View art right from your phone
 
-In this course you will learn to build a web application without frameworks or unnecessary libraries, but with vanilla HTML, CSS & JavaScript as much as possible. The end result is a modular, single page web app (SPA). Data will be retrieved from an external API, manipulated and finally shown in the UI of the App. You will learn to apply interface principles when building and testing the interface. With the gained knowledge you will be able to build interactive prototypes, based on a user story and real data. Also you will gain a better understanding of how API's, frameworks and libraries work.
+## Table of contents
+* [Concept](https://github.com/marloestacx/Rijksmuseum#concept)
+* [Features](https://github.com/marloestacx/Rijksmuseum#features)
+* [Installation](https://github.com/marloestacx/Rijksmuseum#installation)
+* [Live Demo](https://github.com/marloestacx/Rijksmuseum#live-demo)
+* [Activity Diagram](https://github.com/marloestacx/Rijksmuseum#activity-diagram)
+* [Rubric](https://github.com/marloestacx/Rijksmuseum#rubric)
+* [Sources](https://github.com/marloestacx/Rijksmuseum#sources)
+* [Wishlist](https://github.com/marloestacx/Rijksmuseum#wishlist)
+* [License](https://github.com/marloestacx/Rijksmuseum#license)
 
-## Assignment
+## Concept
+This project is a single page web app where you can view art that is displayed in the Rijksmuseum. 
 
-- [Visitekaartje](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/main/course/week-1.md#1-visitekaartje): Ontwerp en maak met HTML, CSS en JS een visitekaartje.
-- [Teampagina](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/main/course/week-1.md#2-teampagina): Ontwerp en maak met je team een teampagina waarin je de verschillende visitekaartjes toont.
-- [Single Page App](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-2.md): Design and build a single page web app based on a User Story.
+<Add Image>
 
----
+## Features
+In the web app you can view the art. At the top is a search bar which you can search art with, you can search the art by name or the person who made it. 
 
-## Program
+## Installation 
+Clone this repository
 
-| Planning | Maandag | Dinsdag | Vrijdag  |
-|---|---|---|---|
-| [Week 1 - Hellooo 🤸](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-1.md) | Introduction + visitekaartje | Teampagina | Teambespreking |
-| [Week 2 - Hello API 🐒](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-2.md) | College + briefing opdracht | College + Work | Feedbackgesprekken |
-| Voorjaarsvakantie |  |  |  |
-| [Week 3 - Refactor 🛠](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-3.md)  | College + work  | College + work | Feedbackgesprekken  |
-| [Week 4 - Wrapping up 🎁](https://github.com/cmda-minor-web/web-app-from-scratch-2122/blob/master/course/week-4.md)  | College + work  | work | Beoordelingsgesprekken  |
+`https://github.com/marloestacx/rijksmuseum.git`
 
-## Best Practices
+Use Live Server to run the project
 
-All work during this course will be tested against our [Best Practices for JavaScript](https://github.com/cmda-minor-web/best-practices/blob/master/javascript.md).
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
+
+## Live Demo
+The website can be viewd live on [https://marloestacx.github.io/web-app-from-scratch-2122/spa/](https://marloestacx.github.io/web-app-from-scratch-2122/spa/)
+
+## Activity Diagram
 
 ## Rubric
 
@@ -34,6 +44,17 @@ Your efforts will be graded using a single point rubric (see below). You will ha
 |  | *Code structure* - you write modular, consistent and efficient HTML, CSS and JavaScript code by applying structure and best practices. You manage state for the application and the UI |  |
 |  | *Data management* - you understand how you can work with an external API using asynchronous code. You can retrieve data, manipulate and dynamically convert it to structured html |  |
 |  | *Project* - your app is working and published on GitHub Pages. Your project is thoroughly documented in the `README.md` file in your repository.  |  |
+
+
+## Sources
+* [Rijksmsueum API](https://data.rijksmuseum.nl/object-metadata/api/)
+* [routie](http://projects.jga.me/routie/)
+
+## Wishlist
+* Filter function
+
+## License
+Usage is provided under the [MIT License](https://github.com/marloestacx/rijksmuseum/blob/main/LICENSE). See LICENSE for the full details.
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 

@@ -2,16 +2,23 @@
 View art right from your phone
 
 ## Table of contents
+* [Concept](https://github.com/marloestacx/Rijksmuseum#concept)
+* [Features](https://github.com/marloestacx/Rijksmuseum#features)
+* [Installation](https://github.com/marloestacx/Rijksmuseum#installation)
+* [Live Demo](https://github.com/marloestacx/Rijksmuseum#live-demo)
+* [Activity Diagram](https://github.com/marloestacx/Rijksmuseum#activity-diagram)
+* [Rubric](https://github.com/marloestacx/Rijksmuseum#rubric)
+* [Sources](https://github.com/marloestacx/Rijksmuseum#sources)
+* [Wishlist](https://github.com/marloestacx/Rijksmuseum#wishlist)
+* [License](https://github.com/marloestacx/Rijksmuseum#license)
 
-
-## Description
+## Concept
 This project is a single page web app where you can view art that is displayed in the Rijksmuseum. 
+
+<Add Image>
 
 ## Features
 In the web app you can view the art. At the top is a search bar which you can search art with, you can search the art by name or the person who made it. 
-
-## End result 
-Add image later
 
 ## Installation 
 
@@ -38,7 +45,7 @@ Your efforts will be graded using a single point rubric (see below). You will ha
 *Filter function
 
 ## License
-Usage is provided under the [MIT License](https://github.com/ROEL2407/Rijksmuseum_overzicht/blob/main/LICENSE). See LICENSE for the full details.
+Usage is provided under the [MIT License](https://github.com/marloestacx/Rijksmuseum/blob/main/LICENSE). See LICENSE for the full details.
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 

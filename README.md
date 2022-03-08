@@ -15,7 +15,9 @@ View art right from your phone
 ## Concept
 This project is a single page web app where you can view art that is displayed in the Rijksmuseum. 
 
-<Add Image>
+
+<img src="https://github.com/marloestacx/rijksmuseum/wiki/images/home.png" width=50%>
+<img src="https://github.com/marloestacx/rijksmuseum/wiki/images/search.png" width=50%>
 
 ## Features
 In the web app you can view the art. At the top is a search bar which you can search art with, you can search the art by name or the person who made it. 
@@ -33,6 +35,8 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwick
 The website can be viewd live on [https://marloestacx.github.io/web-app-from-scratch-2122/spa/](https://marloestacx.github.io/web-app-from-scratch-2122/spa/)
 
 ## Activity Diagram
+
+<img src="https://github.com/marloestacx/rijksmuseum/wiki/images/AD.png">
 
 ## Rubric
 

@@ -36,7 +36,7 @@ Use Live Server to run the project
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 ## Live Demo
-The website can be viewd live on [https://marloestacx.github.io/web-app-from-scratch-2122/spa/](https://marloestacx.github.io/web-app-from-scratch-2122/spa/)
+The website can be viewd live on [https://marloestacx.github.io/rijksmuseum/spa/](https://marloestacx.github.io/web-app-from-scratch-2122/spa/)
 
 ## Activity Diagram
 

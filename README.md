@@ -9,7 +9,7 @@ View art right from your phone
 * [Activity Diagram](https://github.com/marloestacx/Rijksmuseum#activity-diagram)
 * [Rubric](https://github.com/marloestacx/Rijksmuseum#rubric)
 * [Sources](https://github.com/marloestacx/Rijksmuseum#sources)
-* [Wishlist](https://github.com/marloestacx/Rijksmuseum#wishlist)
+* [Checklist](https://github.com/marloestacx/Rijksmuseum#checklist)
 * [License](https://github.com/marloestacx/Rijksmuseum#license)
 
 ## Concept
@@ -59,12 +59,12 @@ Your efforts will be graded using a single point rubric (see below). You will ha
 * [routie](http://projects.jga.me/routie/)
 
 ## Checklist
-☑️ Show art
-☑️ Search art
-☑️ Search art
-☑️ Add search hash
-[ ] Art detail page
-[ ] Sort alphabetical
+- ☑️ Show art
+- ☑️ Search art
+- ☑️ Search art
+- ☑️ Add search hash
+- [ ] Art detail page
+- [ ] Show products that are added to the list
 
 
 ## License

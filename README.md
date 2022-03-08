@@ -59,12 +59,12 @@ Your efforts will be graded using a single point rubric (see below). You will ha
 * [routie](http://projects.jga.me/routie/)
 
 ## Checklist
-- ☑️ Show art
-- ☑️ Search art
-- ☑️ Search art
-- ☑️ Add search hash
+- [x] Show art
+- [x] Search art
+- [x] Search art
+- [x] Add search hash
 - [ ] Art detail page
-- [ ] Show products that are added to the list
+- [ ] Sort alphabetical
 
 
 ## License

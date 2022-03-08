@@ -7,9 +7,9 @@ View art right from your phone
 * [Installation](https://github.com/marloestacx/Rijksmuseum#installation)
 * [Live Demo](https://github.com/marloestacx/Rijksmuseum#live-demo)
 * [Activity Diagram](https://github.com/marloestacx/Rijksmuseum#activity-diagram)
+* [Checklist](https://github.com/marloestacx/Rijksmuseum#checklist)
 * [Rubric](https://github.com/marloestacx/Rijksmuseum#rubric)
 * [Sources](https://github.com/marloestacx/Rijksmuseum#sources)
-* [Checklist](https://github.com/marloestacx/Rijksmuseum#checklist)
 * [License](https://github.com/marloestacx/Rijksmuseum#license)
 
 ## Concept
@@ -42,6 +42,14 @@ The website can be viewd live on [https://marloestacx.github.io/rijksmuseum/spa/
 
 <img src="https://github.com/marloestacx/rijksmuseum/wiki/images/AD.png">
 
+## Checklist
+- [x] Show art
+- [x] Search art
+- [x] Search art
+- [x] Add search hash
+- [ ] Art detail page
+- [ ] Sort alphabetical
+
 ## Rubric
 
 Your efforts will be graded using a single point rubric (see below). You will have to pass the criterion (centre column) to pass the course. During the test you will be consulted and will be given feedback on things we think deficient and things we think are an improvement on the criterion.
@@ -57,14 +65,6 @@ Your efforts will be graded using a single point rubric (see below). You will ha
 ## Sources
 * [Rijksmsueum API](https://data.rijksmuseum.nl/object-metadata/api/)
 * [routie](http://projects.jga.me/routie/)
-
-## Checklist
-- [x] Show art
-- [x] Search art
-- [x] Search art
-- [x] Add search hash
-- [ ] Art detail page
-- [ ] Sort alphabetical
 
 
 ## License

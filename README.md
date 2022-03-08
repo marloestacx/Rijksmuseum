@@ -58,8 +58,14 @@ Your efforts will be graded using a single point rubric (see below). You will ha
 * [Rijksmsueum API](https://data.rijksmuseum.nl/object-metadata/api/)
 * [routie](http://projects.jga.me/routie/)
 
-## Wishlist
-* Filter function
+## Checklist
+☑️ Show art
+☑️ Search art
+☑️ Search art
+☑️ Add search hash
+[ ] Art detail page
+[ ] Sort alphabetical
+
 
 ## License
 Usage is provided under the [MIT License](https://github.com/marloestacx/rijksmuseum/blob/main/LICENSE). See LICENSE for the full details.

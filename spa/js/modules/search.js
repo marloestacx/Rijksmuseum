@@ -18,7 +18,7 @@ export function search(input) {
   //search on input
   console.log(input);
 
-  var search = globalData.filter(function (d) {
+  let search = globalData.filter(function (d) {
     return (
       d.title.toLowerCase().includes(input.toLowerCase()) ||
       d.principalOrFirstMaker.toLowerCase().includes(input.toLowerCase())

@@ -9,8 +9,6 @@ export function searchInput() {
   search(input.value);
 
   console.log(input);
-
-  // routie("search/" + input.value);
 }
 
 export function search(input) {
@@ -28,7 +26,6 @@ export function search(input) {
   });
 
   if (search.length == 0) {
-    // display.textContent = "Niks gevonden, zoek opnieuw";
     errorSearch();
   }
 

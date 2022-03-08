@@ -4,7 +4,12 @@ let globalData;
 export { globalData };
 
 export async function getData() {
-  fetch("https://www.rijksmuseum.nl/api/nl/collection?key=c5r1klvi&ps=100")
+  const rijksmuseum = "https://www.rijksmuseum.nl/api/nl/collection";
+  const apiKey = "c5r1klvi";
+  const ammount = "&ps=100";
+  const url = `${rijksmuseum}?key=${apiKey}${ammount}`;
+
+  fetch(url)
     // JSON data
     .then((response) => {
       if (response.status >= 200 && response.status <= 299) {

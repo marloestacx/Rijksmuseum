@@ -7,15 +7,21 @@ View art right from your phone
 * [Installation](https://github.com/marloestacx/Rijksmuseum#installation)
 * [Live Demo](https://github.com/marloestacx/Rijksmuseum#live-demo)
 * [Activity Diagram](https://github.com/marloestacx/Rijksmuseum#activity-diagram)
+* [Checklist](https://github.com/marloestacx/Rijksmuseum#checklist)
 * [Rubric](https://github.com/marloestacx/Rijksmuseum#rubric)
 * [Sources](https://github.com/marloestacx/Rijksmuseum#sources)
-* [Wishlist](https://github.com/marloestacx/Rijksmuseum#wishlist)
 * [License](https://github.com/marloestacx/Rijksmuseum#license)
 
 ## Concept
 This project is a single page web app where you can view art that is displayed in the Rijksmuseum. 
 
-<Add Image>
+Entree
+
+<img src="https://github.com/marloestacx/rijksmuseum/wiki/images/home.png" width="30%">
+
+Search
+
+<img src="https://github.com/marloestacx/rijksmuseum/wiki/images/search.png" width="30%">
 
 ## Features
 In the web app you can view the art. At the top is a search bar which you can search art with, you can search the art by name or the person who made it. 
@@ -30,9 +36,19 @@ Use Live Server to run the project
 VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer
 
 ## Live Demo
-The website can be viewd live on [https://marloestacx.github.io/web-app-from-scratch-2122/spa/](https://marloestacx.github.io/web-app-from-scratch-2122/spa/)
+The website can be viewd live on [https://marloestacx.github.io/rijksmuseum/spa/](https://marloestacx.github.io/web-app-from-scratch-2122/spa/)
 
 ## Activity Diagram
+
+<img src="https://raw.githubusercontent.com/wiki/marloestacx/rijksmuseum/images/AD2.png">
+
+## Checklist
+- [x] Show art
+- [x] Search art
+- [x] Search art
+- [x] Add search hash
+- [ ] Art detail page
+- [ ] Sort alphabetical
 
 ## Rubric
 
@@ -50,8 +66,6 @@ Your efforts will be graded using a single point rubric (see below). You will ha
 * [Rijksmsueum API](https://data.rijksmuseum.nl/object-metadata/api/)
 * [routie](http://projects.jga.me/routie/)
 
-## Wishlist
-* Filter function
 
 ## License
 Usage is provided under the [MIT License](https://github.com/marloestacx/rijksmuseum/blob/main/LICENSE). See LICENSE for the full details.

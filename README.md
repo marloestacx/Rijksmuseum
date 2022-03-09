@@ -17,11 +17,12 @@ This project is a single page web app where you can view art that is displayed i
 
 Entree
 
-<img src="https://github.com/marloestacx/rijksmuseum/wiki/images/home.png" width="30%">
+<!-- <img src="https://github.com/marloestacx/rijksmuseum/wiki/images/home.png" width="30%"> -->
+![ScreenShot](https://github.com/marloestacx/rijksmuseum/wiki/images/home.png)
 
 Search
 
-<img src="https://github.com/marloestacx/rijksmuseum/wiki/images/search.png" width="30%">
+![ScreenShot](https://github.com/marloestacx/rijksmuseum/wiki/images/search.png)
 
 ## Features
 In the web app you can view the art. At the top is a search bar which you can search art with, you can search the art by name or the person who made it. 
@@ -40,7 +41,7 @@ The website can be viewd live on [https://marloestacx.github.io/rijksmuseum/spa/
 
 ## Activity Diagram
 
-<img src="https://raw.githubusercontent.com/wiki/marloestacx/rijksmuseum/images/AD2.png">
+![ScreenShot](https://github.com/marloestacx/rijksmuseum/wiki/images/AD2.png)
 
 ## Checklist
 - [x] Show art

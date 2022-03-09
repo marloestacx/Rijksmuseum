@@ -40,7 +40,7 @@ The website can be viewd live on [https://marloestacx.github.io/rijksmuseum/spa/
 
 ## Activity Diagram
 
-<img src="https://github.com/marloestacx/rijksmuseum/wiki/images/AD2.png">
+<img src="https://raw.githubusercontent.com/wiki/marloestacx/rijksmuseum/images/AD2.png">
 
 ## Checklist
 - [x] Show art

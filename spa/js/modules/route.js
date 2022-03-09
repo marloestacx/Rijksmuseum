@@ -11,6 +11,7 @@ export function route() {
     },
     "search/:searchInput": (input) => {
       loading();
+      //if data is not empty search
       if (!globalData) {
         getData()
           .then(() => {

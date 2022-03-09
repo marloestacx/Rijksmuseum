@@ -2,13 +2,10 @@ import { globalData } from "./api.js";
 import { showData } from "./data.js";
 import { errorSearch } from "./states.js";
 import "../routie/routie.min.js";
+let input = document.getElementById("searchInput");
 
 export function searchInput() {
-  let input = document.getElementById("searchInput");
-
   search(input.value);
-
-  console.log(input);
 }
 
 export function search(input) {
@@ -16,8 +13,6 @@ export function search(input) {
   display.innerHTML = "";
 
   //search on input
-  console.log(input);
-
   let search = globalData.filter(function (d) {
     return (
       d.title.toLowerCase().includes(input.toLowerCase()) ||
@@ -25,6 +20,7 @@ export function search(input) {
     );
   });
 
+  //if search is empty show error
   if (search.length == 0) {
     errorSearch();
   }
@@ -35,9 +31,8 @@ export function search(input) {
 export function searchBar(event) {
   event.preventDefault();
 
-  let input = document.getElementById("searchInput");
+  //get input
 
-  console.log(input);
   routie("search/" + input.value);
   searchInput();
 }

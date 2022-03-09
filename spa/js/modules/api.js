@@ -1,13 +1,12 @@
 import { showData } from "./data.js";
-let data = [];
-let globalData;
 export { globalData };
+let globalData;
 
 export async function getData() {
   const rijksmuseum = "https://www.rijksmuseum.nl/api/nl/collection";
   const apiKey = "c5r1klvi";
-  const ammount = "&ps=100";
-  const url = `${rijksmuseum}?key=${apiKey}${ammount}`;
+  const artAmount = "&ps=100";
+  const url = `${rijksmuseum}?key=${apiKey}${artAmount}`;
 
   fetch(url)
     // JSON data
@@ -18,10 +17,8 @@ export async function getData() {
     })
     .then((response) => {
       document.getElementById("items").textContent = "";
-      data = response.artObjects;
-      console.log(data);
-      showData(response.artObjects);
-      globalData = data;
+      globalData = response.artObjects;
+      showData(globalData);
     })
     .catch(function (err) {
       // Catch error

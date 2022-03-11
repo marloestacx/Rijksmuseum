@@ -2,6 +2,7 @@ export function showData(data) {
   const display = document.getElementById("items");
 
   data.forEach((item) => {
+    //create article html
     display.insertAdjacentHTML(
       "beforeend",
       "<article><h2>" +

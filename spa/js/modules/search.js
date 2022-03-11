@@ -32,7 +32,6 @@ export function searchBar(event) {
   event.preventDefault();
 
   //get input
-
   routie("search/" + input.value);
   searchInput();
 }
